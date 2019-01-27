@@ -33,8 +33,6 @@ def singleton(cls):
 
 @singleton
 class A:
-    attr = 1
-
     def __init__(self, x=0):
         self.x = x
 
